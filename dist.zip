@@ -65,3 +65,18 @@ Provide a report listing:
 - Any required configuration or deployment steps.
 
 IMPORTANT: Inspect the existing TCL project before changing anything. Never claim that an error has been fixed unless the correction has actually been implemented and tested. If access to the source code, database, or deployment environment is missing, explain exactly what access is required instead of pretending the work is complete.
+TCL — FIX THE EXISTING WEBSITE
+
+Inspect the actual TCL source code in this repository before making any changes.
+
+1. Do not treat "dist.zip" or this instruction file as the website source code unless inspection confirms that it contains the actual application.
+2. Locate the real frontend, backend, database configuration, API routes, and deployment settings.
+3. Identify and fix actual errors with the smallest safe code changes.
+4. Preserve the existing design, user accounts, database records, and all working features.
+5. Never replace production data with demo data or expose secrets.
+6. Run the available build, lint, and tests. Fix errors that can be reproduced.
+7. Verify that login, registration, dashboards, admin functions, and database operations still work where applicable.
+8. Report each fix, each test result, and any remaining problem.
+9. Do not claim that the website is fixed unless the changes have been implemented and verified.
+
+If the source code or required backend access is missing, explain exactly what is missing instead of pretending to fix the website.
